@@ -1,6 +1,11 @@
 @extends('layouts.default')
 @section('content')
     <div class="row">
+        <div class="col-md-12">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/z16qdpmsqKU" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-md-6">
             <h1>Twitter</h1>
         </div>
