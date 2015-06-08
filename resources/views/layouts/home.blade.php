@@ -1,10 +1,30 @@
+<?php
+$videos = array(
+        "z16qdpmsqKU",
+        "WbYwOaJpNSs",
+        "BOGkaxewWKM",
+        "jrl268IJI30"
+);
+
+$link = $_POST['link'];
+
+public function getEmbeddedString ($link)
+{
+    $this->strin
+}
+?>
 @extends('layouts.default')
 @section('content')
+    @foreach($videos as $vidLink)
+
     <div class="row">
-        <div class="col-md-12">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/z16qdpmsqKU" frameborder="0" allowfullscreen></iframe>
+        <div class="col-xs-12 col-md-6">
+            <a href="#" class="thumbnail">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/<?=$vidLink?>" frameborder="0" allowfullscreen></iframe>
+            </a>
         </div>
     </div>
+    @endforeach
     <div class="row">
         <div class="col-md-6">
             <h1>Twitter</h1>
