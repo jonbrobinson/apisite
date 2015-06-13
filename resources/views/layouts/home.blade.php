@@ -6,15 +6,13 @@ $videos = array(
         "jrl268IJI30"
 );
 
-$link = $_POST['link'];
-
-public function getEmbeddedString ($link)
-{
-    $this->strin
-}
 ?>
 @extends('layouts.default')
 @section('content')
+
+    {{--{{ Form::open() }}--}}
+
+    {{--{{ Form::close() }}--}}
     @foreach($videos as $vidLink)
 
     <div class="row">
