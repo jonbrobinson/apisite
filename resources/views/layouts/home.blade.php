@@ -17,9 +17,11 @@ $videos = array(
 
     <div class="row">
         <div class="col-xs-12 col-md-6">
-            <a href="#" class="thumbnail">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/<?=$vidLink?>" frameborder="0" allowfullscreen></iframe>
-            </a>
+            <div class="video-container">
+                <a href="#" class="thumbnail">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/<?=$vidLink?>" frameborder="0" allowfullscreen></iframe>
+                </a>
+            </div>
         </div>
     </div>
     @endforeach
